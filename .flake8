@@ -1,0 +1,47 @@
+[flake8]
+
+extend-ignore = E203, W503
+
+ignore =
+    D100,
+    D101,
+    D102,
+    D104,
+    D107,
+    F812,
+    H101,
+    H202,
+    H233,
+    H301,
+    H306,
+    H401,
+    H403,
+    H404,
+    H405,
+    H501,
+    D101,
+    B001,
+    W191,
+    E501,
+    F403,
+    W293,
+    W503,
+    E731
+
+exclude = .git,__pycache__,docs/source/conf.py,old,build,dist,.venv
+
+application-import-names = matchwork, tests, parser/parser/spiders
+
+import-order-style = google
+
+max-line-length = 100
+
+max-complexity = 10
+
+max-nested-blocks = 5
+
+hang-closing = true
+
+inline-quotes = single
+
+multiline-quotes = single

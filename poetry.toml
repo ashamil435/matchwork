@@ -1,0 +1,7 @@
+[installer]
+max-workers = 24
+
+[virtualenvs]
+create = true
+in-project = true
+prompt = "{project_name}_env"
